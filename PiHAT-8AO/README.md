@@ -1,0 +1,1 @@
+**1. WIN-PiHAT-8AO.py** A continuous control script that outputs real-time voltage signals across all 8 analog output channels. The script utilizes the onboard DAC via the SPI bus to accurately generate external analog signals (e.g., 0-10V control outputs), immediately converting precise 12-bit or 16-bit digital commands from the terminal into real-world proportional voltages.
