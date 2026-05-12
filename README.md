@@ -22,10 +22,19 @@ A solid-state output board utilizing high-speed, high-current MOSFETs for 8 chan
 * **Use Case:** Ideal for fast-acting DC loads, PWM (Pulse Width Modulation) generation, LED lighting arrays, and precision motor control.
 * **Key Feature:** Features isolated output stages to protect the Pi, while offering zero moving parts. This solves the issue of mechanical relay degradation (wear and arcing) in applications that require rapid, continuous switching.
 
+### **4. WIN-PiHAT-8AI (8-Channel Analog Input)**
+A high-resolution data acquisition board featuring 8 independent analog input channels.
+* **Use Case:** Perfect for reading continuous industrial sensors, pressure transducers, temperature transmitters, flow meters, and variable frequency drive (VFD) feedback signals.
+* **Key Feature:** Provides precise signal measurement with an onboard ADC supporting selectable 12-bit or 16-bit resolution. With jumper-configurable input ranges (0-5V, 0-10V, 4-20mA), it enables highly accurate digitization of real-world analog conditions directly to the Pi's I2C/SPI bus.
+
+### **5. WIN-PiHAT-8AO (8-Channel Analog Output)**
+A precision control board featuring 8 independent analog output channels.
+* **Use Case:** Ideal for driving proportional valves, variable frequency drives (VFDs), servo motor speed references, and industrial dimming systems.
+* **Key Feature:** Utilizes an onboard Digital-to-Analog Converter (DAC) with selectable 12-bit or 16-bit resolution to generate precise 0-10V programmable control signals, seamlessly translating digital commands from the Pi into smooth, real-world proportional control
+
 ---
 
 ### **Future Expansion Roadmap**
 The PiHAT-UIUO ecosystem is actively growing. Future updates to this repository will include driver support and Python examples for:
-* **Analog I/O (ADC/DAC):** For reading & writing continuous 4-20mA or 0-10V industrial sensors.
 * **Temperature Monitoring:** RTD and Thermocouple interfaces for precision thermal tracking.
 * **Industrial Protocols:** RS485/Modbus RTU expansion boards for daisy-chaining legacy factory equipment.
