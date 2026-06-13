@@ -108,7 +108,7 @@ if __name__ == "__main__":
             for step in range(0, 11): 
                 target_v = step * 1.0 
                 
-                print(f"Ramping UP: Setting all 16 channels to {target_v:.1f}V")
+                print(f"Ramping UP: Setting all 8 channels to {target_v:.1f}V")
                 
                 # Iterate through all 8 channels on both DACs
                 for ch in range(8):
@@ -121,7 +121,7 @@ if __name__ == "__main__":
             for step in range(10, -1, -1):
                 target_v = step * 1.0
                 
-                print(f"Ramping DOWN: Setting all 16 channels to {target_v:.1f}V")
+                print(f"Ramping DOWN: Setting all 8 channels to {target_v:.1f}V")
                 
                 for ch in range(8):
                     write_tpc112s8(spi0, ch, target_v)
