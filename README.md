@@ -32,6 +32,11 @@ A precision control board featuring 8 independent analog output channels.
 * **Use Case:** Ideal for driving proportional valves, variable frequency drives (VFDs), servo motor speed references, and industrial dimming systems.
 * **Key Feature:** Utilizes an onboard Digital-to-Analog Converter (DAC) with selectable 12-bit or 16-bit resolution to generate precise 0-10V programmable control signals, seamlessly translating digital commands from the Pi into smooth, real-world proportional control
 
+#### **6. WIN-PiHAT-4DI-4DO-2AI-2AO (Universal Industrial I/O)**
+A versatile mixed-signal industrial I/O board featuring 4 digital inputs, 4 digital outputs, 2 analog inputs, and 2 analog outputs.
+* **Use Case:** Perfect for industrial automation, machine monitoring, process control, sensor interfacing, and actuator control applications.
+* **Key Feature:** Combines digital and analog I/O into a single compact HAT, supporting 4-20mA analog inputs and programmable 0-10V analog outputs alongside isolated digital I/O, providing a flexible PLC alternative for Raspberry Pi-based industrial systems.
+
 ---
 
 ### **Future Expansion Roadmap**
