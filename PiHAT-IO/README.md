@@ -1,0 +1,2 @@
+**1. WIN-PiHAT-4DI-4DO-2AI-2AO.py**
+A comprehensive diagnostic script that continuously monitors the 4 digital input channels and 2 analog input channels while sequentially testing the 4 digital outputs and 2 analog outputs. The script uses active-LOW logic for digital inputs, cycles each digital output for two seconds, and generates a programmable 0-10V analog output signal in 1V steps, providing complete functional verification of the multi-configuration I/O board.
